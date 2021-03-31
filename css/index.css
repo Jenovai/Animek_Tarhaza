@@ -247,12 +247,12 @@ table {
         grid-template-rows: auto auto 90px;
     }
 
-    .img-hi {
+    /*.img-hi {
         left: 30%;
         bottom: 5%;
         width: 40%;
         opacity: 95%;
-    }
+    }*/
 
     .latestjobs-articles {
         flex-direction: column;
