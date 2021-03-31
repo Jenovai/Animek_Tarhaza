@@ -1,0 +1,69 @@
+li {
+    list-style: none;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.page-title {
+    padding: 30px;
+    margin: 20px 0px;
+    text-align: left;
+    font-size: 30px;
+
+    background: linear-gradient(to left, white, lightblue, lightgray);
+    border-radius: 10px;
+    transform: rotate(-1deg);
+}
+
+.blogpost-main-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.post-title {
+    text-align: center;
+    margin: 50px 0px 30px 0px;
+    font-size: 50px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.post-author {
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.post-text {
+    margin-bottom: 30px;
+}
+
+.read-more-button {
+    margin: 0px 0px 30px 30px;
+    display: inline-block;
+    background-color: lightskyblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    transition: 1s;
+}
+
+.read-more-button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.adminok{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.adat{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}

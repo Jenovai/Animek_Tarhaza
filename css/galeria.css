@@ -1,0 +1,128 @@
+.page-title {
+    padding: 30px;
+    margin: 20px 0px;
+    text-align: right;
+    font-size: 30px;
+
+    background: linear-gradient(to left, white, lightblue, lightgray);
+    border-radius: 10px;
+    transform: rotate(1deg);
+}
+
+.main-container {
+    grid-area: 2 / 1 / 3 / 2;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.job-main-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr auto;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+    width: 49%;
+
+    background: linear-gradient(to right, lightgray, white);
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.job-main-container:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 50px black;
+    cursor: pointer;
+}
+
+
+.job-description-container {
+    grid-area: 1 / 1 / 3 / 2;
+    margin-right: 40px;
+    text-align: justify;
+    align-self: center;
+}
+
+.job-main-container img {
+    grid-area: 1 / 2 / 3 / 3;
+    margin: 20px;
+    width: 160%;
+    justify-self: center;
+    align-self: center;
+    transition: 1s;
+    border-radius: 5px;
+    border: 10px solid lightgrey;
+}
+.left{
+    float: left;
+    margin-right: 10px;
+}
+.right{
+    float: right;
+}
+
+.job-main-container img:hover {
+    width: 200%;
+    margin-right: 200px;
+    box-shadow: 10px 10px 50px black;
+    transform: rotate(2deg);
+}
+
+.main-container ul li:nth-child(even) img:hover {
+    margin: 0px 0px 0px 200px;
+}
+
+.job-hashtags {
+    grid-area: 3 / 1 / 4 / 3;
+
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.main-container ul li:nth-child(even) div {
+    grid-area: 1 / 2 / 3 / 3;
+}
+
+.main-container ul li:nth-child(even) img {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+@media screen and (max-width: 767px) {
+    .job-description-container {
+        grid-area: 1 / 1 / 2 / 3
+    }
+    
+    .job-main-container img {
+        grid-area: 2 / 1 / 3 / 3;
+    }
+
+    .job-hashtags {
+        grid-area: 3 / 1 / 4 / 3;
+    }
+
+    .main-container ul li:nth-child(even) div {
+        grid-area: 1 / 1 / 2 / 3
+    }
+
+    .main-container ul li:nth-child(even) img {
+        grid-area: 2 / 1 / 3 / 3;
+    }
+
+    .job-main-container img:hover {
+        width: 80%;
+        margin-right: 0px;
+        margin: 20px;
+        box-shadow: none;
+        transform: rotate(0deg);
+    }
+
+    .main-container ul li:nth-child(even) img:hover {
+        margin: 20px;
+    }
+
+    .job-main-container:hover {
+        transform: scale(1);
+        box-shadow: none;
+        cursor: default;
+    }
+}
+

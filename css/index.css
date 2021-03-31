@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+@keyframes updateLogoAnimation {
+  0% {
+      padding-top: 25px;
+  }
+
+  50% {
+      padding-top: 20px;
+  }
+
+  100% {
+      padding-top: 25px;
+  }
+}
+
+
+
+/* main */
+
+.main-container {
+    grid-area: 2 / 1 / 3 / 2;
+
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 1fr;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.content-container {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+
+/* sayhi pics */
+
+.sayhi-bg-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+
+    margin-top: 40px;
+
+    margin-bottom: -45%;
+}
+
+.bg-designer {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 100%;
+    display: flex;
+    justify-self: end;
+    opacity: 80%;
+    z-index: -1;
+}
+
+.bg-coder {
+    grid-area: 1 / 2 / 2 / 3;
+    width: 100%;
+    display: flex;
+    justify-self: start;
+    opacity: 30%;
+    z-index: -1;
+}
+
+.img-hi {
+    /*position: relative;
+    left: 36%;
+    bottom: 10%;*/
+    margin-top: 1%;
+    width: 100%;
+    opacity: 95%;
+    border-radius: 15px;
+}
+
+
+/* introduction */
+
+.introduction-container {
+    font-family: Poppins;
+    font-size: 1.3rem;
+    color: #212529;
+    background-color: #E9ECEF;
+    box-shadow: -5px -5px 30px gray;
+
+    border-radius: 5px 0px 0px 5px;
+    margin-bottom: 50px;
+    padding: 50px 0px 50px 30px;
+}
+
+.introduction-container h4 {
+    margin-bottom: 20px;
+}
+
+.introduction-container h5 {
+    margin: 20px 0px;
+    color: black;
+}
+
+.introduction-container hr {
+    border-color: #D1D4D7;
+    width: 96%;
+}
+
+.introduction-container a {
+    background-color: #007BFF;
+    transition: 0.5s;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.introduction-container a:hover {
+    background-color: #0051A8;
+}
+
+.next-gomb{
+    background-color: #007BFF;
+    transition: 0.5s;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+.next-gomb:hover{
+    background-color: #0051A8;
+}
+
+/* latest jobs */
+
+table {
+    border-collapse: collapse;
+}
+
+.latestjobs-title {
+    margin: 0px auto;
+}
+
+.jobs-title {
+    font-family: poppins;
+    font-size: 14px;
+    min-width: 321px;
+}
+
+.td-hr {
+    padding: 10px;
+    width: 50%;
+}
+
+.latestjobs-articles {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.latestjobs-articles article {
+    margin: 0px 20px;
+}
+
+.latestjobs-articles img {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 5px solid rgba(100, 100, 100, 0.2);
+}
+
+.latestjobs-articles img:hover {
+    cursor: pointer;
+}
+
+
+/* aside */
+
+.aside-container {
+    grid-area: 1 / 2 / 2 / 3;
+    background: linear-gradient(to right,#E9ECEF, white);
+    font-family: Poppins;
+    box-shadow: 5px 0px 20px grey;
+}
+
+.update-logo {
+    height: 80px;
+    text-align: center;
+}
+
+.update-logo h1 {
+    color: #212529;
+    animation: updateLogoAnimation 2s infinite;
+}
+
+.aside-article-container article {
+    margin: 30px 0px 30px 20px
+}
+
+
+.aside-article-container article h2 {
+    margin: 0px 0px 0px 10px;
+    transition: 1s;
+    font-weight: 500;
+}
+
+.aside-article-container article h2:hover {
+    margin: 0px 0px 0px 20px;
+    cursor: pointer;
+}
+
+.aside-article-container article p {
+    text-align: justify;
+    margin: 0px 20px 0px 20px;
+    font-weight: 200;
+}
+
+@media screen and (min-width: 767px) {
+    .latestjobs-articles img {
+        transition: 1s;
+    }
+
+    .latestjobs-articles img:hover {
+        transform: scale(1.1);
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .main-container {
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 1fr;
+    }
+
+    .aside-container {
+        grid-area: 2 / 1 / 3 / 2;
+        margin: 50px 0px;
+        background: white;
+    }
+
+    .aside-container h2 {
+        display: inline;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .root-container {
+        grid-template-rows: auto auto 90px;
+    }
+
+    .img-hi {
+        left: 30%;
+        bottom: 5%;
+        width: 40%;
+        opacity: 95%;
+    }
+
+    .latestjobs-articles {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .latestjobs-articles article {
+        margin: 20px 0px;
+    }
+}
