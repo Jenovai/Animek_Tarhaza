@@ -29,7 +29,7 @@
 }
 
 .job-main-container:hover {
-    transform: scale(1.02);
+    /*transform: scale(1.02);*/
     box-shadow: 5px 5px 50px black;
     cursor: pointer;
 }
@@ -60,17 +60,17 @@
     float: right;
 }
 
-.job-main-container img:hover {
+/* .job-main-container img:hover {
     width: 200%;
     margin-right: 200px;
     box-shadow: 10px 10px 50px black;
     transform: rotate(2deg);
-}
+} */
 
-.main-container ul li:nth-child(even) img:hover {
+/* .main-container ul li:nth-child(even) img:hover {
     margin: 0px 0px 0px 200px;
 }
-
+ */
 .job-hashtags {
     grid-area: 3 / 1 / 4 / 3;
 
