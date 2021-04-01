@@ -253,6 +253,9 @@ table {
         width: 40%;
         opacity: 95%;
     }*/
+    .latestjobs-container{
+        display: none;
+    }
 
     .latestjobs-articles {
         flex-direction: column;
