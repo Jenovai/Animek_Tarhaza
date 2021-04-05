@@ -91,5 +91,13 @@
 }
 
 @media screen and (max-width: 767px) {
-
+    #animek>img{
+        width: 100%
+    }
+    #hori_adat{
+        display: block
+    }
+    #sh_adat{
+        display: block
+    }
 }
