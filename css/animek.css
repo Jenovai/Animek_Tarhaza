@@ -1,72 +1,95 @@
 .main-container {
-    grid-area: 2 / 1 / 3 / 2;
     max-width: 1200px;
     margin: 0px auto;
-
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-
     box-shadow: -5px 0px 30px lightgray;
-
     background: linear-gradient(to right, lightgrey, white );
 }
-
-.introdouce {
-    grid-area: 1 / 1 / 3 / 2;
-    align-self: center;
-    margin-left: 30px;
-}
-
-.hi-pics {
-    grid-area: 1 / 2 / 3 / 3;
-    justify-self: center;
-}
-
-.hi-pics img {
-    width: 400px;
-}
-
-.introdouce h1 {
-    font-size: 80px;
-    font-weight: 500;
-    color: #474749;
-}
-
-.introdouce h3 {
-    margin-bottom: 25px;
-    font-size: 25px;
-    color: #666690;
-}
-
-.random-fact {
-    margin: 30px;
-    color: grey;
-}
-
-.follow-twitter {
-    background-color: lightskyblue;
-    display: inline-block;
-    padding: 10px 30px;
-    color: white;
+.page-title {
+    padding: 30px;
+    margin: 20px 0px;
+    text-align: right;
+    font-size: 30px;
+    background: linear-gradient(to left, white, lightblue, lightgray);
     border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-    margin-bottom: 10px;
+    transform: rotate(1deg);
+}
+#animek>img{
+    width: 23%;
+}
+.nyil{
+    margin: 0 10px 0 10px;
+    font-size: 100px;
 }
 
-.follow-twitter:hover {
-    opacity: 80%;
-    transform: scale(1.1);
-    z-index: -1;
+#horimiya{
+    display: none;   
+}
+#hori_adat{
+    display: grid;
+    grid-template-columns:50px 1fr 1fr;
+    max-width: 1000px;
+}
+#hori_adat>img{
+    width: 70%;
+    margin-left: 20px;
+    box-shadow: 10px 5px 20px grey;
+    border-radius: 20px;
+}
+ #hori_adat>table{
+    width: 100%;
+    margin: auto;
+    margin-right: 20px;
+}
+#hori_adat>table,td{
+    padding: 10px;
+    border: black 1px solid;
+    border-collapse: collapse; 
+} 
+#shaman_king{
+    display: none;   
+}
+#sh_adat{
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr;
+    max-width: 1000px;
+}
+#sh_adat>img{
+    width: 70%;
+    margin-left: 20px;
+    box-shadow: 10px 5px 20px grey;
+    border-radius: 20px;
+}
+#sh_adat>table{
+    width: 100%;
+    margin: auto;
+    margin-right: 20px;
+}
+#sh_adat>table,td{
+    padding: 10px;
+    border: black 1px solid;
+    border-collapse: collapse; 
+} 
+.reszek{
+    width: 90%;
+    margin: auto;
+    border-top: black solid 1px;
+    display: block;
+    margin-top: 30px;
+    padding: 10px;
+}
+.reszek>h1{
+    text-align: center;
+}
+.reszek>a{
+    color: blue;
+    text-decoration: blue solid underline;
+    margin: auto 10px 0 10px;
+}
+
+.reszek>a:hover{
+    color: red;
 }
 
 @media screen and (max-width: 767px) {
-    .introdouce {
-        grid-area: 1 / 1 / 2 / 3;
-    }
 
-    .hi-pics {
-        grid-area: 2 / 1 / 3 / 3;
-    }
 }
