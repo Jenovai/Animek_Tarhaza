@@ -45,6 +45,7 @@
     border: black 1px solid;
     border-collapse: collapse; 
 } 
+
 #shaman_king{
     display: none;   
 }
@@ -68,7 +69,32 @@
     padding: 10px;
     border: black 1px solid;
     border-collapse: collapse; 
-} 
+}
+#dororo{
+    display: none;   
+}
+#dororo_adat{
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr;
+    max-width: 1000px;
+}
+#dororo_adat>img{
+    width: 70%;
+    margin-left: 20px;
+    box-shadow: 10px 5px 20px grey;
+    border-radius: 20px;
+}
+#dororo_adat>table{
+    width: 100%;
+    margin: auto;
+    margin-right: 20px;
+}
+#dororo_adat>table,td{
+    padding: 10px;
+    border: black 1px solid;
+    border-collapse: collapse; 
+}
+
 .reszek{
     width: 90%;
     margin: auto;
