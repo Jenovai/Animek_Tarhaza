@@ -103,7 +103,12 @@
     margin-top: 30px;
     padding: 10px;
 }
-.reszek>h1{
+.all_resz{
+    border-top: black solid 1px;
+    width: 90%;
+    margin: auto;
+}
+.reszek,.all_resz>h1{
     text-align: center;
 }
 .reszek>a{
@@ -111,6 +116,7 @@
     text-decoration: blue solid underline;
     margin: auto 10px 0 10px;
 }
+
 
 .reszek>a:hover{
     color: red;
@@ -125,5 +131,8 @@
     }
     #sh_adat{
         display: block
+    }
+    #dororo_adat{
+        display: block;
     }
 }
