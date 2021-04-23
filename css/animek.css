@@ -108,6 +108,12 @@
     width: 90%;
     margin: auto;
 }
+.all_resz>p{
+    text-align: center;
+}
+.all_resz>iframe{
+    width: 100%;
+}
 .reszek,.all_resz>h1{
     text-align: center;
 }
