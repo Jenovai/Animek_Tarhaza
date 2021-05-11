@@ -94,6 +94,35 @@
     border: black 1px solid;
     border-collapse: collapse; 
 }
+#nana{
+    display: none;   
+}
+#nana_adat{
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr;
+    max-width: 1000px;
+}
+#nana_adat>img{
+    width: 70%;
+    margin-left: 20px;
+    box-shadow: 10px 5px 20px grey;
+    border-radius: 20px;
+}
+#nana_adat>table{
+    width: 100%;
+    margin: auto;
+    margin-right: 20px;
+}
+#nana_adat>table,td{
+    padding: 10px;
+    border: black 1px solid;
+    border-collapse: collapse; 
+}
+
+
+
+
+
 
 .reszek{
     width: 90%;
