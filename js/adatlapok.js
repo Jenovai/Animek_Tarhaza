@@ -1,5 +1,6 @@
+let animek = document.getElementById("animek")
+
 function horimiya(){
-    let animek = document.getElementById("animek")
     animek.style.display = "none"
 
     let hori = document.getElementById("horimiya")
@@ -7,7 +8,6 @@ function horimiya(){
 }
 
 function shaman(){
-    let animek = document.getElementById("animek")
     animek.style.display = "none"
 
     let sh = document.getElementById("shaman_king")
@@ -15,9 +15,15 @@ function shaman(){
 }
 
 function dororo(){
-    let animek = document.getElementById("animek")
     animek.style.display = "none"
 
     let dororo = document.getElementById("dororo")
     dororo.style.display = "block"
+}
+
+function nana(){
+    animek.style.display = "none"
+
+    let nana = document.getElementById("nana")
+    nana.style.display = "block"
 }
