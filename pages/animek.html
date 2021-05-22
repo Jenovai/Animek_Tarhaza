@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animék Tárháza</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/animekk.css">
+    <link rel="stylesheet" href="../css/animek.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <!-- Nézettségfigyelö -->
@@ -35,6 +35,7 @@
                 <ul class="navbtns" id="nav-ul">
                     <li><a href="animek.html">Animék</a></li>
                     <li><a href="galeria.html">Galéria</a></li>
+                    <!-- <li><a href="./pages/jatek.html" onclick="game()">Játék</a></li> -->
                     <li><a href="tagok.html">Tagok</a></li>
                     <li><a href="elerhetoseg.html">Elérhetöségek</a></li>
                 </ul>
@@ -47,110 +48,13 @@
                     <h1>Animék:</h1>
                 </div>
                 <div id="animek">
-                    <img src="../img/animek/horimiya.png" alt="" onclick="horimiya()">
-                    <img src="../img/animek/shaman_king.png" alt="" onclick="shaman()">
-                    <img src="../img/animek/dororo.png" alt="" onclick="dororo()">
-                    <img src="../img/animek/nana.png" alt="" onclick="nana()">
+                    <a href="../pages/animek/horimiya.html"><img src="../img/animek/horimiya.png" alt="" ></a>
+                    <a href=""><img src="../img/animek/shaman_king.png" alt=""></a>
+                    <a href=""><img src="../img/animek/dororo.png" alt="" ></a>
+                    <a href=""><img src="../img/animek/nana.png" alt=""></a>
                 </div>
 
-                <div id="horimiya">
-                    <div id="hori_adat">
-                        <a href="./animek.html"><h1 class="nyil">«</h1></a>
-                        <img src="../img/adatlap_img/horimiya.jpg" alt="">
-                        <table>
-                            <tr>
-                                <td>Japán cim:</td>
-                                <td>ホリミヤ </td>
-                            </tr>
-                            <tr>
-                                <td>Angol cim:</td>
-                                <td>Horimiya</td>
-                            </tr>
-                            <tr>
-                                <td>Megjelenés dátuma:</td>
-                                <td>2021.01.10 - 2021.04.04 </td>
-                            </tr>
-                            <tr>
-                                <td>Évadok száma:</td>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <td>Részek száma:</td>
-                                <td>13 rész</td>
-                            </tr>
-                            <tr>
-                                <td>Movie:</td>
-                                <td>Nincs</td>
-                            </tr>
-                            <tr>
-                                <td>Manga:</td>
-                                <td>16 kötet (Jelenleg is fut)</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="5">Eredeti mű:</td>
-                            </tr>
-                            <tr>
-                                <td>Hori-san to Miyamura-kun</td>
-                            </tr>
-                            <tr>
-                                <td>manga</td>
-                            </tr>
-                            <tr>
-                                <td>10 kötet</td>
-                            </tr>
-                            <tr>
-                                <td>2008.10.22 - 2011.12.22</td>
-                            </tr>
-                        </table>
-                    </div>  
-
-                    <div class="reszek">
-                        <h1>Részek:</h1>
-                        <a href="https://indavideo.hu/video/Horimiya_1_resz_magyar_felirattal">1.rész</a>
-                        <a href="https://indavideo.hu/video/Horimiya_2_resz_magyar_felirattal">2.rész</a>
-                        <a href="https://indavideo.hu/video/Horimiya_3_resz_magyar_felirattal">3.rész</a>
-                        <a href="https://indavideo.hu/video/Horimiya_4_resz_magyar_felirattal">4.rész</a>
-                        <a href="https://indavideo.hu/video/Horimiya_5_resz_magyar_felirattal">5.rész</a>
-                        <a href="https://indavideo.hu/video/Horimiya_6_resz_magyar_felirattal">6.rész</a>
-                        <a href="https://indavideo.hu/video/Horimiya_7_resz_magyar_felirattal">7.rész</a>
-                        <a href="https://indavideo.hu/video/Horimiya_8_resz_magyar_felirattal">8.rész</a>
-                        <a href="https://indavideo.hu/video/Horimiya_9_resz_magyar_felirattal">9.rész</a>
-                        <a href="https://indavideo.hu/video/Horimiya_10_resz_magyar_felirattal">10.rész</a>
-                        <a href="https://indavideo.hu/video/Horimiya_11_resz_magyar_felirattal">11.rész</a>
-                        <a href="https://indavideo.hu/video/Horimiya_12_resz_magyar_felirattal">12.rész</a>
-                        <a href="https://indavideo.hu/video/Horimiya_13_resz_VEGE_magyar_felirattal">13.rész (VÉGE)</a>
-                    </div>
-
-                    <div class="all_resz">
-                        <h1>Összes rész:</h1>
-                        <p>1.rész</p>
-                        <iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-221d59a722" type="text/html" width="640" height="360" src="//embed.indavideo.hu/player/video/221d59a722" frameborder="0"></iframe>
-                        <p>2.rész</p>
-                        <iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-f10ed9569a" type="text/html" width="640" height="360" src="//embed.indavideo.hu/player/video/f10ed9569a" frameborder="0"></iframe>
-                        <p>3.rész</p>
-                        <iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-ea556ad10f" type="text/html" width="640" height="360" src="//embed.indavideo.hu/player/video/ea556ad10f" frameborder="0"></iframe>
-                        <p>4.rész</p>
-                        <iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-31b70eae46" type="text/html" width="640" height="360" src="//embed.indavideo.hu/player/video/31b70eae46" frameborder="0"></iframe>
-                        <p>5.rész</p>
-                        <iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-8612a06a59" type="text/html" width="640" height="360" src="//embed.indavideo.hu/player/video/8612a06a59" frameborder="0"></iframe>
-                        <p>6.rész</p>
-                        <iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-ccde0719d9" type="text/html" width="640" height="360" src="//embed.indavideo.hu/player/video/ccde0719d9" frameborder="0"></iframe>
-                        <p>7.rész</p>
-                        <iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-cea75262f2" type="text/html" width="640" height="360" src="//embed.indavideo.hu/player/video/cea75262f2" frameborder="0"></iframe>
-                        <p>8.rész</p>
-                        <iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-9b1a4b60c1" type="text/html" width="640" height="360" src="//embed.indavideo.hu/player/video/9b1a4b60c1" frameborder="0"></iframe>
-                        <p>9.rész</p>
-                        <iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-dbb228f95b" type="text/html" width="640" height="360" src="//embed.indavideo.hu/player/video/dbb228f95b" frameborder="0"></iframe>
-                        <p>10.rész</p>
-                        <iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-3cac6839d4" type="text/html" width="640" height="360" src="//embed.indavideo.hu/player/video/3cac6839d4" frameborder="0"></iframe>
-                        <p>11.rész</p>
-                        <iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-d814d212c0" type="text/html" width="640" height="360" src="//embed.indavideo.hu/player/video/d814d212c0" frameborder="0"></iframe>
-                        <p>12.rész</p>
-                        <iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-b2d27ab593" type="text/html" width="640" height="360" src="//embed.indavideo.hu/player/video/b2d27ab593" frameborder="0"></iframe>
-                        <p>13.rész (VÉGE)</p>
-                        <iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-35e7dce148" type="text/html" width="640" height="360" src="//embed.indavideo.hu/player/video/35e7dce148" frameborder="0"></iframe>
-                    </div>
-                </div>
+                
                 <div id="shaman_king">
                     <div id="sh_adat">
                         <a href="./animek.html"><h1 class="nyil">«</h1></a>

@@ -13,7 +13,7 @@
     border-radius: 10px;
     transform: rotate(1deg);
 }
-#animek>img{
+#animek>a>img{
     width: 23%;
 }
 .nyil{
