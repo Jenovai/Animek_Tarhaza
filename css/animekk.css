@@ -1,0 +1,184 @@
+.main-container {
+    max-width: 1200px;
+    margin: 0px auto;
+    box-shadow: -5px 0px 30px lightgray;
+    background: linear-gradient(to right, lightgrey, white );
+}
+.page-title {
+    padding: 30px;
+    margin: 20px 0px;
+    text-align: right;
+    font-size: 30px;
+    background: linear-gradient(to left, white, lightblue, lightgray);
+    border-radius: 10px;
+    transform: rotate(1deg);
+}
+#animek>a>img{
+    width: 23%;
+}
+.nyil{
+    margin: 0 10px 0 10px;
+    font-size: 100px;
+}
+
+#hori_adat{
+    display: grid;
+    grid-template-columns:50px 1fr 1fr;
+    max-width: 1000px;
+}
+#hori_adat>img{
+    width: 70%;
+    margin-left: 20px;
+    box-shadow: 10px 5px 20px grey;
+    border-radius: 20px;
+}
+ #hori_adat>table{
+    width: 100%;
+    margin: auto;
+    margin-right: 20px;
+}
+#hori_adat>table,td{
+    padding: 10px;
+    border: black 1px solid;
+    border-collapse: collapse; 
+} 
+
+#sh_adat{
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr;
+    max-width: 1000px;
+}
+#sh_adat>img{
+    width: 70%;
+    margin-left: 20px;
+    box-shadow: 10px 5px 20px grey;
+    border-radius: 20px;
+}
+#sh_adat>table{
+    width: 100%;
+    margin: auto;
+    margin-right: 20px;
+}
+#sh_adat>table,td{
+    padding: 10px;
+    border: black 1px solid;
+    border-collapse: collapse; 
+}
+
+#dororo_adat{
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr;
+    max-width: 1000px;
+}
+#dororo_adat>img{
+    width: 70%;
+    margin-left: 20px;
+    box-shadow: 10px 5px 20px grey;
+    border-radius: 20px;
+}
+#dororo_adat>table{
+    width: 100%;
+    margin: auto;
+    margin-right: 20px;
+}
+#dororo_adat>table,td{
+    padding: 10px;
+    border: black 1px solid;
+    border-collapse: collapse; 
+}
+
+#nana_adat{
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr;
+    max-width: 1000px;
+}
+#nana_adat>img{
+    width: 70%;
+    margin-left: 20px;
+    box-shadow: 10px 5px 20px grey;
+    border-radius: 20px;
+}
+#nana_adat>table{
+    width: 100%;
+    margin: auto;
+    margin-right: 20px;
+}
+#nana_adat>table,td{
+    padding: 10px;
+    border: black 1px solid;
+    border-collapse: collapse; 
+}
+
+#haikyu_adat{
+    display: grid;
+    grid-template-columns:50px 1fr 1fr;
+    max-width: 1000px;
+}
+#haikyu_adat>img{
+    width: 70%;
+    margin-left: 20px;
+    box-shadow: 10px 5px 20px grey;
+    border-radius: 20px;
+}
+#haikyu_adat>table{
+    width: 100%;
+    margin: auto;
+    margin-right: 20px;
+}
+#haikyu_adat>table,td{
+    padding: 10px;
+    border: black 1px solid;
+    border-collapse: collapse; 
+} 
+
+
+
+
+.reszek{
+    width: 90%;
+    margin: auto;
+    border-top: black solid 1px;
+    display: block;
+    margin-top: 30px;
+    padding: 10px;
+}
+.all_resz{
+    border-top: black solid 1px;
+    width: 90%;
+    margin: auto;
+}
+.all_resz>p{
+    text-align: center;
+}
+.all_resz>iframe{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.reszek,.all_resz>h1{
+    text-align: center;
+}
+.reszek>a{
+    color: blue;
+    text-decoration: blue solid underline;
+    margin: auto 10px 0 10px;
+}
+
+
+.reszek>a:hover{
+    color: red;
+}
+
+@media screen and (max-width: 767px) {
+    #animek>img{
+        width: 100%
+    }
+    #hori_adat{
+        display: block
+    }
+    #sh_adat{
+        display: block
+    }
+    #dororo_adat{
+        display: block;
+    }
+}
